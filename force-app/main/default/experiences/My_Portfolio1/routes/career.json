@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "20276f58-dc58-4dd1-b419-03976823476b",
+  "appPageId" : "bc4b0344-103d-4e58-8db9-788087aaf298",
+  "configurationTags" : [ ],
+  "devName" : "Career__c",
+  "id" : "45ba4db6-831f-4869-8cbf-198a200ec348",
+  "label" : "Career",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-career",
+  "type" : "route",
+  "urlPrefix" : "career"
+}

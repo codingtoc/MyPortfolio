@@ -1,0 +1,57 @@
+<template>
+  <lightning-card title="IMDB Movies">
+    <lightning-layout class="slds-p-around_medium" multiple-rows>
+      <lightning-layout-item
+        size="12"
+        small-device-size="6"
+        medium-device-size="4"
+        large-device-size="3"
+        class="slds-m-right_medium"
+      >
+        <lightning-input
+          label="Enter Movie Name"
+          placeholder="ex) venom"
+          onchange={handleChange}
+        ></lightning-input>
+      </lightning-layout-item>
+      <lightning-layout-item class="slds-m-top_large">
+        <lightning-button
+          label="Search"
+          variant="brand"
+          onclick={handleClick}
+        ></lightning-button>
+      </lightning-layout-item>
+    </lightning-layout>
+  </lightning-card>
+  <lightning-card>
+    <template if:true={processing}>
+      <lightning-spinner
+        alternative-text="Loading"
+        size="Medium"
+      ></lightning-spinner>
+    </template>
+    <font size="6">{showText}</font>
+    <lightning-layout multiple-rows>
+      <template for:each={movies} for:item="movie">
+        <lightning-layout-item
+          key={movie.imdbID}
+          size="12"
+          small-device-size="6"
+          medium-device-size="4"
+          large-device-size="3"
+          class="slds-p-around_medium"
+        >
+          <img
+            src={movie.Poster}
+            alt="No Image Found"
+            style="height: 300px; width: 90%"
+          /><br />
+          Title: {movie.Title} <br />
+          Year: {movie.Year} <br />
+          imdbID: {movie.imdbID} <br />
+          Type: {movie.Type}
+        </lightning-layout-item>
+      </template>
+    </lightning-layout>
+  </lightning-card>
+</template>

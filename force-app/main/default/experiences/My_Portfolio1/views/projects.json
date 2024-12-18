@@ -1,0 +1,161 @@
+{
+  "appPageId" : "bc4b0344-103d-4e58-8db9-788087aaf298",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "a72e5429-f49d-4da0-af18-9efb60445698",
+  "label" : "Projects",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 100,
+        "sectionConfig" : {
+          "UUID" : "df1f5f99-69b8-4946-881a-af0d4841b316",
+          "columns" : [ {
+            "UUID" : "1c47ad70-b9c2-42ca-ba8a-ba1f09be8689",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "df1f5f99-69b8-4946-881a-af0d4841b316",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h1 style=\"text-align: center;\"><span style=\"font-size: 28px;\">Projects</span></h1>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "7be14f43-ba11-4363-ad19-37bc7835e04e",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : {
+            "tabsetConfig" : {
+              "UUID" : "79440691-ff41-4255-9ef7-74cf1523eade",
+              "activeTab" : "",
+              "tabs" : [ {
+                "UUID" : "58357d58-e317-49a7-9e8f-3512daf65877",
+                "allowGuestUser" : true,
+                "locked" : false,
+                "seedComponents" : [ ],
+                "tabKey" : "1",
+                "tabName" : "Weather App"
+              }, {
+                "UUID" : "63fa820a-5cc7-4de4-89d0-657856458e86",
+                "allowGuestUser" : true,
+                "locked" : false,
+                "seedComponents" : [ ],
+                "tabKey" : "2",
+                "tabName" : "IMDB Movies"
+              }, {
+                "UUID" : "ede9008a-fcea-4cbe-94d2-4b064f463dca",
+                "allowGuestUser" : false,
+                "locked" : false,
+                "seedComponents" : [ ],
+                "tabKey" : "3",
+                "tabName" : "Todo App"
+              }, {
+                "UUID" : "08cc067e-a6e8-4a2e-a0ac-98b033f2abdc",
+                "allowGuestUser" : false,
+                "locked" : false,
+                "seedComponents" : [ ],
+                "tabKey" : "b2e05",
+                "tabName" : "Todo Dashboard"
+              } ],
+              "useOverflowMenu" : true
+            }
+          },
+          "componentName" : "forceCommunity:tabLayout",
+          "id" : "79440691-ff41-4255-9ef7-74cf1523eade",
+          "regions" : [ {
+            "components" : [ {
+              "componentAttributes" : { },
+              "componentName" : "c:currentWeather",
+              "id" : "dc76a8bf-9642-42c2-86f8-77699a001fcf",
+              "renderPriority" : "NEUTRAL",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "58357d58-e317-49a7-9e8f-3512daf65877",
+            "regionLabel" : "Weather App",
+            "regionName" : "1",
+            "renditionMap" : { },
+            "type" : "region"
+          }, {
+            "components" : [ {
+              "componentAttributes" : { },
+              "componentName" : "c:moviesList1",
+              "id" : "01b9a8aa-0312-4fb7-a374-ccb93635832d",
+              "renderPriority" : "NEUTRAL",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "63fa820a-5cc7-4de4-89d0-657856458e86",
+            "regionLabel" : "IMDB Movies",
+            "regionName" : "2",
+            "renditionMap" : { },
+            "type" : "region"
+          }, {
+            "components" : [ {
+              "componentAttributes" : { },
+              "componentName" : "c:todoList",
+              "id" : "0df40ae7-6860-4a53-80bc-00977958ccc4",
+              "renderPriority" : "NEUTRAL",
+              "renditionMap" : { },
+              "type" : "component"
+            } ],
+            "id" : "ede9008a-fcea-4cbe-94d2-4b064f463dca",
+            "regionLabel" : "Todo App",
+            "regionName" : "3",
+            "renditionMap" : { },
+            "type" : "region"
+          }, {
+            "id" : "08cc067e-a6e8-4a2e-a0ac-98b033f2abdc",
+            "regionLabel" : "Todo Dashboard",
+            "regionName" : "b2e05",
+            "renditionMap" : { },
+            "type" : "region"
+          } ],
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "1c47ad70-b9c2-42ca-ba8a-ba1f09be8689",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "991bac23-6476-483c-8006-7004857fef73",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Projects"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "b9fd7070-9837-4069-81d8-63ce98f96aa6",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "42baa99a-affe-4319-b37c-fd896aa7c309",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-projects"
+}

@@ -1,0 +1,75 @@
+{
+  "appPageId" : "bc4b0344-103d-4e58-8db9-788087aaf298",
+  "componentName" : "siteforce:sldsTwoCol84Layout",
+  "dataProviders" : [ ],
+  "id" : "d8bf9f0d-1279-454f-a619-f9a7c08260bb",
+  "label" : "Guest Home",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<p style=\"text-align: center;\"><span style=\"font-size: 20px;\">Authenticated User</span></p><p style=\"text-align: center;\">Username : rose.gonzalez@codingtoc.devorg01.com</p><p style=\"text-align: center;\">Password : community1</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "fa778471-04e8-4488-ad38-1ded39bd0c61",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "bannerBackgroundColor" : "",
+        "bannerPosition" : "top",
+        "bannerSizePercent" : 35,
+        "borderRadius" : 20,
+        "boxShadow" : true,
+        "haveBanner" : false,
+        "iconBackgroundColor" : "rgb(255,255,255)",
+        "iconSize" : "medium",
+        "noImageColor" : "rgb(116,116,116)",
+        "overlay" : "rgba(0,0,0,0.01)",
+        "templateType" : "default",
+        "tileMenuEditor" : "Default_Navigation",
+        "titleColor" : "",
+        "titleFontSize" : "medium",
+        "titleHorizontalAlign" : "center"
+      },
+      "componentName" : "community_navigation:tileMenu",
+      "id" : "5f051be5-d5c0-4652-8f3a-710c7bc37095",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "f31a2857-59b4-473b-a3ca-197ba8d3fde9",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "id" : "121f5c39-b510-45aa-82ea-e84f9867d33a",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "113e6d0a-8b90-4cc9-a38e-6d2e90c8ca39",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "7e772447-b0ca-43a9-ab98-82dca384864a",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Home"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "5831fa11-ef15-4849-bf64-7afd65e8d71e",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "46b0e8fa-4187-49ad-a21f-3dc8ea4d6d9c",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "JgsUgtKzDFgMVIpLhQYLedizat8cHD",
+  "type" : "view",
+  "viewType" : "home"
+}

@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "9af35d6f-0c01-4328-af34-d9705abf89c9",
+  "appPageId" : "bc4b0344-103d-4e58-8db9-788087aaf298",
+  "configurationTags" : [ ],
+  "devName" : "About_Me__c",
+  "id" : "1144d848-5a13-4c83-a70d-b8194199a4a1",
+  "label" : "About Me",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-about-me",
+  "type" : "route",
+  "urlPrefix" : "about-me"
+}

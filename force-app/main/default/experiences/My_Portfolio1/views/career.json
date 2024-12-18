@@ -1,0 +1,77 @@
+{
+  "appPageId" : "bc4b0344-103d-4e58-8db9-788087aaf298",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "20276f58-dc58-4dd1-b419-03976823476b",
+  "label" : "Career",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 80,
+        "sectionConfig" : {
+          "UUID" : "95560e3e-4924-4e83-a733-75456d46c31f",
+          "columns" : [ {
+            "UUID" : "bf335a6e-fa06-492d-8127-3c72331ec323",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "95560e3e-4924-4e83-a733-75456d46c31f",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h1 style=\"text-align: center;\"><span style=\"font-size: 28px;\">Career</span></h1>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "a620ddb1-e34c-4ae3-b206-76e5e60f95c2",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : { },
+          "componentName" : "c:career",
+          "id" : "194fd518-2423-4e4b-9545-1c858787d69e",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "bf335a6e-fa06-492d-8127-3c72331ec323",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c65a8a38-0dd4-42bc-9eff-84d4f369503b",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Career"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "6c460b03-b768-42cf-8e1e-0a5cae2ae1b4",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "54efbfa8-0c7e-4296-9949-566b0cd26690",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-career"
+}

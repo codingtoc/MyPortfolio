@@ -1,0 +1,306 @@
+{
+  "appPageId" : "bc4b0344-103d-4e58-8db9-788087aaf298",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "0511519c-e809-40eb-90ff-83c6e33c2301",
+  "label" : "Education and Certification",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 80,
+        "sectionConfig" : {
+          "UUID" : "4c1db8e7-32e8-42e9-b706-bdd44915184d",
+          "columns" : [ {
+            "UUID" : "5d337c97-d74f-4778-b7ea-865489c2c476",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 200
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "4c1db8e7-32e8-42e9-b706-bdd44915184d",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h1 style=\"text-align: center;\"><span style=\"font-size: 28px;\">Education</span></h1>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "e4fbab05-2c8f-416c-8c06-ed8324e312d4",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : { },
+          "componentName" : "c:education",
+          "id" : "82f25d3d-4aca-42e3-b289-47c0e5d026a0",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "5d337c97-d74f-4778-b7ea-865489c2c476",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 80,
+        "sectionConfig" : {
+          "UUID" : "1a5a8834-2a89-4d8d-aa22-e3b197eaa69d",
+          "columns" : [ {
+            "UUID" : "f2efbb6d-03be-46a6-9a5e-8008dc56dfcd",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 100
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "1a5a8834-2a89-4d8d-aa22-e3b197eaa69d",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h1 style=\"text-align: center;\"><span style=\"font-size: 28px;\">Certification</span></h1>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "f141c1a3-9174-4eff-a367-1fa331127f06",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "f2efbb6d-03be-46a6-9a5e-8008dc56dfcd",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 80,
+        "sectionConfig" : {
+          "UUID" : "f3dd75a6-09b1-4635-980d-68cc02fba123",
+          "columns" : [ {
+            "UUID" : "2ca4109b-c49f-44b9-a630-f37cfa0e7484",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "3",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "80272f2e-5ccb-40a4-b0b8-24adf302fbb7",
+            "columnKey" : "c844e",
+            "columnName" : "Column 2",
+            "columnWidth" : "3",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "38bb0865-c391-4d9d-859d-c3ff97b069ad",
+            "columnKey" : "cb387",
+            "columnName" : "Column 3",
+            "columnWidth" : "3",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "56972c22-8a43-49ee-893e-fdf7590f54f9",
+            "columnKey" : "4d594",
+            "columnName" : "Column 4",
+            "columnWidth" : "3",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 200
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "f3dd75a6-09b1-4635-980d-68cc02fba123",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.Salesforce_Certified_Service_Cloud.1}\"></p>\n<p style=\"text-align: center;\"><span style=\"font-size: 14px;\">2023.09.18</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "0b76bb2c-87cd-4299-b3e2-56b15d0e838f",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "2ca4109b-c49f-44b9-a630-f37cfa0e7484",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.Salesforce_Certified_Sales_Cloud_Co.1}\"></p>\n<p style=\"text-align: center;\"><span style=\"font-size: 14px;\">2023.06.09</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "33fb1e09-8ff8-40fc-b3a0-e9ad720d1f71",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "80272f2e-5ccb-40a4-b0b8-24adf302fbb7",
+        "regionLabel" : "Column 2",
+        "regionName" : "c844e",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.Salesforce_Certified_Platform_Devel.1}\"></p>\n<p style=\"text-align: center;\"><span style=\"font-size: 14px;\">2023.04.28</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "e34d8f32-e318-4fe5-b099-c8a2710f893c",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "38bb0865-c391-4d9d-859d-c3ff97b069ad",
+        "regionLabel" : "Column 3",
+        "regionName" : "cb387",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.Salesforce_Certified_Administrator.1}\"></p>\n<p style=\"text-align: center;\"><span style=\"font-size: 14px;\">2022.12.27</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "b85bbf0c-edd1-4965-bf4e-56fda250af7f",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "56972c22-8a43-49ee-893e-fdf7590f54f9",
+        "regionLabel" : "Column 4",
+        "regionName" : "4d594",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 80,
+        "sectionConfig" : {
+          "UUID" : "43324b0b-8630-4947-ad22-2c337ffc0e28",
+          "columns" : [ {
+            "UUID" : "5bc2fc1f-c28e-4d3b-add2-5223c0e576e4",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "3",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "620267f5-8511-4cfb-9e5b-b7024bc5788f",
+            "columnKey" : "4ecaf",
+            "columnName" : "Column 2",
+            "columnWidth" : "3",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "1d298428-789f-41e9-82b6-aa9e8413150b",
+            "columnKey" : "96039",
+            "columnName" : "Column 3",
+            "columnWidth" : "3",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "18a9aaa9-1953-410a-9daf-c570840db93c",
+            "columnKey" : "4d1af",
+            "columnName" : "Column 4",
+            "columnWidth" : "3",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 200
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "43324b0b-8630-4947-ad22-2c337ffc0e28",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><span style=\"font-size: 14px;\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.cpimlogo.1}\" width=\"262\" height=\"196\"></span></p>\n<p style=\"text-align: center;\"><span style=\"font-size: 14px;\">2001.03.24</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "24947ce0-f66f-43f1-ad0b-0b54ad4b926f",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "5bc2fc1f-c28e-4d3b-add2-5223c0e576e4",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><img class=\"sfdcCbImage\" src=\"{!contentAsset.Certified_Professional_Logistician1.1}\" alt=\"\"></p>\n<p style=\"text-align: center;\"><br></p>\n<p style=\"text-align: center;\"><br></p>\n<p style=\"text-align: center;\"><span style=\"font-size: 14px;\">1999.10.15</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "62c03996-7f8f-48d5-ac15-208600794cc4",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "620267f5-8511-4cfb-9e5b-b7024bc5788f",
+        "regionLabel" : "Column 2",
+        "regionName" : "4ecaf",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "id" : "1d298428-789f-41e9-82b6-aa9e8413150b",
+        "regionLabel" : "Column 3",
+        "regionName" : "96039",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "id" : "18a9aaa9-1953-410a-9daf-c570840db93c",
+        "regionLabel" : "Column 4",
+        "regionName" : "4d1af",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "6119d9e0-9547-449b-89db-77de4eb2acc8",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Education and Certification"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "73105e77-efd3-4a68-b9b6-cb053852905e",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d789f626-6124-421d-b95d-0a031f43d964",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-education-and-certification"
+}

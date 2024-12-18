@@ -1,0 +1,66 @@
+{
+  "appPageId" : "bc4b0344-103d-4e58-8db9-788087aaf298",
+  "componentName" : "siteforce:sldsTwoCol84Layout",
+  "dataProviders" : [ ],
+  "id" : "39c96f9a-3376-4aae-8758-2723be453151",
+  "label" : "Home",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "bannerBackgroundColor" : "",
+        "bannerPosition" : "top",
+        "bannerSizePercent" : 35,
+        "borderRadius" : 20,
+        "boxShadow" : true,
+        "haveBanner" : false,
+        "iconBackgroundColor" : "rgb(255,255,255)",
+        "iconSize" : "medium",
+        "noImageColor" : "rgb(116,116,116)",
+        "overlay" : "rgba(0,0,0,0.01)",
+        "templateType" : "default",
+        "tileMenuEditor" : "Default_Navigation",
+        "titleColor" : "",
+        "titleFontSize" : "medium",
+        "titleHorizontalAlign" : "center"
+      },
+      "componentName" : "community_navigation:tileMenu",
+      "id" : "b423af74-3948-4529-b28a-f7010d27f432",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "81a19931-5fd5-4d9e-abfd-dbd7ede88f8f",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "id" : "c10d3507-39e2-45ad-a8ce-f23850b0c627",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "c51237d8-f9ce-4b98-95f2-f390bf511142",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "a1e18739-cab4-4fbc-a7f7-12f736409e21",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Home"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "55e51a65-a658-4587-8321-bad031ed2b30",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "8179c471-318e-49d5-b70f-6268a344f178",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Home",
+  "type" : "view",
+  "viewType" : "home"
+}

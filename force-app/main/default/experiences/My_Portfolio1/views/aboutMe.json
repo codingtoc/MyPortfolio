@@ -1,0 +1,92 @@
+{
+  "appPageId" : "bc4b0344-103d-4e58-8db9-788087aaf298",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "9af35d6f-0c01-4328-af34-d9705abf89c9",
+  "label" : "About Me",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 80,
+        "sectionConfig" : {
+          "UUID" : "3bbaa69d-6c7b-48fa-9a68-6dd698fb43e8",
+          "columns" : [ {
+            "UUID" : "b6b825c9-dfee-47bc-bdc4-1f7f3117dd3b",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "4",
+            "seedComponents" : [ ]
+          }, {
+            "UUID" : "9545bf99-f930-44ad-b8db-6375b4c41765",
+            "columnKey" : "5f0bb",
+            "columnName" : "Column 2",
+            "columnWidth" : "8",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "3bbaa69d-6c7b-48fa-9a68-6dd698fb43e8",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><img class=\"sfdcCbImage\" alt=\"\" src=\"{!contentAsset.IMG_32225.1}\" style=\"width: 286.138px; height: 368.587px;\"></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "021a9eaf-b1f8-466d-845b-3a8c86a523b8",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "b6b825c9-dfee-47bc-bdc4-1f7f3117dd3b",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "richTextValue" : "<h1 style=\"text-align: center;\"><span style=\"font-size: 48px;\">﻿</span><span style=\"font-size: 28px;\">About Me</span></h1><p><span style=\"color: rgb(21, 24, 34); font-size: 20px;\">안녕하세요. 저는 임채은입니다. 21년 동안 ERP, CRM 분야에서 다양한 경험을 했습니다. 우선 19년 넘게 ERP SCM 모듈을 중심으로 분석, 설계, 컨설팅 업무를 담당했습니다. 최근 2년 동안은 Salesforce 솔루션을 통한 CRM 분석, 설계, 개발, 컨설팅 업무를 담당했습니다. DB 설계 및 SQL 개발 역량 또한 보유하고 있으며 TOC(Theory Of Constraints, 제약이론)와 BPMN(Business Process Model and Notation) 관련 지식도 보유하고 있습니다.</span></p><p><br></p><p><span style=\"color: rgb(21, 24, 34); font-size: 20px;\">해당 경험과 지식을 바탕으로 사용자의 요구사항에 최적화된 서비스를 제공하고, 항상 신속하고 정확한 업무 처리를 통해 사용자의 만족도를 높이는 것을 최우선으로 생각하고 있습니다.</span></p>"
+          },
+          "componentName" : "forceCommunity:richTextInline",
+          "id" : "43a167bb-deb4-4e2f-85c8-ce31f783bf5c",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "9545bf99-f930-44ad-b8db-6375b4c41765",
+        "regionLabel" : "Column 2",
+        "regionName" : "5f0bb",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "53cfc226-3a1d-41e4-a42d-c259cced92ad",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "About Me"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "3c1cf26c-9ded-453b-b37f-9780ecc4eaf1",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "724c28d9-390e-482d-a941-0a9e22dbbf47",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-about-me"
+}

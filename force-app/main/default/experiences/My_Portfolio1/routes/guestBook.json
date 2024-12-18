@@ -1,0 +1,12 @@
+{
+  "activeViewId" : null,
+  "appPageId" : "bc4b0344-103d-4e58-8db9-788087aaf298",
+  "configurationTags" : [ ],
+  "devName" : "Guest_Book__c",
+  "id" : "586ac654-a2a0-4f3b-8e08-7742ff6bcf2f",
+  "label" : "Guest Book",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-guest-book",
+  "type" : "route",
+  "urlPrefix" : "guest-book"
+}

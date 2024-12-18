@@ -1,0 +1,13 @@
+{
+  "componentVariants" : [ {
+    "id" : "2d7cecf7-91e1-4372-b1a1-4f5fd35a78d9",
+    "propertyOverrides" : {
+      "activeViewId" : "8ea0de71-880e-410b-ac5f-0942cc9425cc"
+    },
+    "targetId" : "586ac654-a2a0-4f3b-8e08-7742ff6bcf2f",
+    "type" : "componentVariant"
+  } ],
+  "developerName" : "Guest_Book_Guest_Book_Page",
+  "id" : "26c5dd52-d69b-4e63-a58f-ab43e7c4c660",
+  "type" : "experienceVariation"
+}

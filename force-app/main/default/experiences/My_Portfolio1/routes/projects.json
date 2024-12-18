@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "a72e5429-f49d-4da0-af18-9efb60445698",
+  "appPageId" : "bc4b0344-103d-4e58-8db9-788087aaf298",
+  "configurationTags" : [ ],
+  "devName" : "Projects__c",
+  "id" : "0994ed18-b938-4de8-80d4-1a582ff5323a",
+  "label" : "Projects",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-projects",
+  "type" : "route",
+  "urlPrefix" : "projects"
+}

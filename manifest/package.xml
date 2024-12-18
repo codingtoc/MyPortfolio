@@ -1,36 +1,84 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
         <members>*</members>
+        <name>Network</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>CustomSite</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ExperienceBundle</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>NavigationMenu</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>Audience</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ContentAsset</name>
+    </types>
+    <types>
+        <members>WeatherAPICredentials</members>
+        <members>IMDBCredentials</members>
+        <name>ExternalCredential</name>
+    </types>
+    <types>
+        <members>WeatherAPI</members>
+        <members>IMDB</members>
+        <name>NamedCredential</name>
+    </types>
+    <types>
+        <members>WeatherIcon</members>
+        <members>IMDB_Poster</members>
+        <name>CspTrustedSite</name>
+    </types>
+    <types>
+        <members>WeatherAPI</members>
+        <members>IMDBController1</members>
+        <members>TodoController</members>
         <name>ApexClass</name>
     </types>
     <types>
-        <members>*</members>
-        <name>ApexComponent</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>ApexPage</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>ApexTestSuite</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>ApexTrigger</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>AuraDefinitionBundle</name>
-    </types>
-    <types>
-        <members>*</members>
+        <members>currentWeather</members>
+        <members>moviesList1</members>
+        <members>searchTodo</members>
+        <members>modalPopup</members>
+        <members>todoList</members>
+        <members>education</members>
+        <members>career</members>
         <name>LightningComponentBundle</name>
     </types>
     <types>
-        <members>*</members>
-        <name>StaticResource</name>
+        <members>TodoReport</members>
+        <members>TodoReport/Todo_Report_qPo</members>
+        <name>Report</name>
+    </types>
+    <types>
+        <members>TodoDashboard</members>
+        <members>TodoDashboard/hAhXYucNanBSOHmlAYlZKCqKnuDmeU</members>
+        <name>Dashboard</name>
+    </types>
+    <types>
+        <members>Create_Guest_Book</members>
+        <name>Flow</name>
+    </types>
+    <types>
+        <members>My Portfolio Profile</members>
+        <members>Custom Customer Community Plus User</members>
+        <name>Profile</name>
+    </types>
+    <types>
+        <members>Lead</members>
+        <members>Activity</members>
+        <members>UserExternalCredential</members>
+        <name>CustomObject</name>
     </types>
     <version>62.0</version>
 </Package>

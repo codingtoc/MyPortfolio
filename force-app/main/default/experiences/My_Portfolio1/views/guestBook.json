@@ -1,0 +1,71 @@
+{
+  "appPageId" : "bc4b0344-103d-4e58-8db9-788087aaf298",
+  "componentName" : "siteforce:dynamicLayout",
+  "dataProviders" : [ ],
+  "id" : "8ea0de71-880e-410b-ac5f-0942cc9425cc",
+  "label" : "Guest Book",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "background" : "background: rgba(0,0,0,0)",
+        "backgroundOverlay" : "rgba(0,0,0,0.5)",
+        "contentAreaWidth" : 80,
+        "sectionConfig" : {
+          "UUID" : "17232ab2-49d4-4047-b592-a36dcd3dc568",
+          "columns" : [ {
+            "UUID" : "c78e880e-0471-43be-92c5-25aff332822b",
+            "columnKey" : "1",
+            "columnName" : "Column 1",
+            "columnWidth" : "12",
+            "seedComponents" : [ ]
+          } ]
+        },
+        "sectionHeight" : 300
+      },
+      "componentName" : "forceCommunity:section",
+      "id" : "17232ab2-49d4-4047-b592-a36dcd3dc568",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "flowArguments" : "",
+            "flowName" : "Create_Guest_Book"
+          },
+          "componentName" : "forceCommunity:flowCommunity",
+          "id" : "ffed6274-0cef-4f1a-9b9d-736f24baf48b",
+          "renderPriority" : "NEUTRAL",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "c78e880e-0471-43be-92c5-25aff332822b",
+        "regionLabel" : "Column 1",
+        "regionName" : "1",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "612c845f-fa18-4ec3-95f0-082ddecbf806",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Guest Book"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "b5eb7a65-92eb-42ce-8d33-f4d38ad68146",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d2d2c98b-220e-45f9-9513-b2845e0eae18",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-guest-book"
+}
