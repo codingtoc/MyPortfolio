@@ -23,8 +23,8 @@
     <redirectToCustomDomain>false</redirectToCustomDomain>
     <referrerPolicyOriginWhenCrossOrigin>true</referrerPolicyOriginWhenCrossOrigin>
     <selfRegPage>CommunitiesSelfReg</selfRegPage>
-    <siteAdmin>alex.rogo@codingtoc.devorg01.com</siteAdmin>
-    <siteGuestRecordDefaultOwner>alex.rogo@codingtoc.devorg01.com</siteGuestRecordDefaultOwner>
+    <siteAdmin>alex.rogo@codingtoc.devorg02.com</siteAdmin>
+    <siteGuestRecordDefaultOwner>alex.rogo@codingtoc.devorg02.com</siteGuestRecordDefaultOwner>
     <siteType>ChatterNetwork</siteType>
     <urlPathPrefix>myportfolio</urlPathPrefix>
 </CustomSite>
