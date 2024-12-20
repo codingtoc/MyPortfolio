@@ -1,8 +1,26 @@
 <template>
-  <lightning-datatable
-    key-field=""
-    data={rows}
-    columns={columns}
-    hide-checkbox-column
-  ></lightning-datatable>
+  <h2 class="section_heading">{workExperienceData.heading}</h2>
+  <div class="slds-var-p-left_x-large slds-is-relative workExp_content">
+    <template
+      for:each={workExperienceData.workExperiences}
+      for:item="workExperience"
+    >
+      <section
+        key={workExperience.duration}
+        class="workExp_individual slds-is-relative"
+      >
+        <h3 class="blue_color font16 fontWeight700">
+          {workExperience.duration}
+        </h3>
+        <div class="blue_color font16">
+          <a href={workExperience.companyUrl} target="_blank">
+            {workExperience.companyName} {workExperience.role}
+          </a>
+        </div>
+        <div class="slds-var-m-bottom_xx-large">
+          <p>{workExperience.description}</p>
+        </div>
+      </section>
+    </template>
+  </div>
 </template>
